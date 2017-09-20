@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<!-- Задание 1. Вычитайте строку из input. Высчитайте ее длину. Выведите результат. -->
+
+			<h2>Задача 1</h2>
+			<input type="text" id="i1" placeholder="строка">
+			<button id="b1">Посчитать</button>
+			<p id="dlinaStroki">Длина строки</p>
+			<hr>
+
+		<!-- Задание 2. Создайте массив, который содержит имена изображений в определенной папке. Запустите цикл по массиву и выведите все изображения на страницу. Подсказка, для вывода изображения используйте тег <img src=”xxxx”> где xxx – путь к файлу. -->
+
+			<h2>Задача 2</h2>
+			<button id="b2">Выпустить изображения на волю</button>
+			<div id="massivIzobr">Ваши изображения: </div>
+			<hr>
+
+		<!-- Задание 3. Пользователь вводит URL адрес в input в формате http или https. Выведите только имя домена без префиксов http://, https://. -->
+
+			<h2>Задача 3</h2>
+			<p><input type="url" placeholder="сайт" name="site" id="site"></p>
+			<button id="b3"">Убрать хттп</button>
+			<p id="webAdress">Веб страница</p>
+			<hr>
+
+		<!-- Задание 4. Пользователь может ввести адрес сайта в формате http://site.ua, https://site.ua, http://www.site.ua, https://www.site.ua или site.ua. Ваша задача используя поиск в подстроке вывести site в виде: site.ua. -->
+
+			<h2>Задача 4</h2>
+			<p><input type="url" placeholder="сайт" name="site2" id="site2"></p>
+			<button id="b4"">Убрать хттп 2</button>
+			<p id="webAdress2">Веб страница 2</p>
+			<hr>
+
+		<!-- Задание 5. Пользователь заполняет форму состоящую из фамилии, имени пароля и email. Используя приведенные методы выполните обработку формы состоящую из удаления пробелов до и после введённых слов, пароль не должен быть меньше 5 символов, email должен содержать один символ @ и не содержать пробелов. Если форма заполнена корректно, возвращать true. -->
+
+			<h2>Задача 5</h2>
+			<input type="text" id="name" placeholder="имя">
+			<input type="text" id="surname" placeholder="фамилия">
+			<input type="password" id="pass" placeholder="пароль">
+			<input type="email" id="mailAdress" placeholder="email">
+			<button id="b5">Проверка форм</button>
+			<p id="checkForm">Соответствие форм</p>
+			<hr>
+
+		<!-- Задание 6. Пользователь вводит символ, выведите его код. -->
+
+			<h2>Задача 6</h2>
+			<input type="text" id="i6" placeholder="введите символ">
+			<button id="b6">Узнать код</button>
+			<p id="symbolCode">Код символа</p>
+			<hr>
+
+	</div>
+
+
+<script src="1.js"></script>
+</body>
+</html>
